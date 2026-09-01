@@ -1,9 +1,9 @@
 package com.example.RentalCarLab1;
 
-import org.springframework.web.bind.annotation.*;  
-@RestController  
+import org.springframework.web.bind.annotation.GetMapping;
+ 
 public class HelloService {  
-    @GetMapping("/")  
+    @GetMapping("/") 
     public String hello() {   
         return "hello";  
     }  
